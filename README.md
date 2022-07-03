@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # Co-Attack
 =======
-# Towards Adversarial Attack on Vision-Language Pre-training Models
+# [Towards Adversarial Attack on Vision-Language Pre-training Models](https://arxiv.org/abs/2206.09391)
 
 This is the official PyTorch implement of the paper Towards Adversarial Attack on Vision-Language Pre-training Models. 
 
@@ -64,4 +64,3 @@ python GroundingFusionEval.py ...
 ```
 python visualization.py --adv 4 --gpu 0
 ```
->>>>>>> 46c4b17 (first)
