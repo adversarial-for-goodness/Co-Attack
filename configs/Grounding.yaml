@@ -1,0 +1,36 @@
+train_file: ['data/official/refcoco+_train.json']
+test_file: ['data/official/refcoco+_val.json','data/official/refcoco+_test.json']
+
+refcoco_data: 'data/official'
+det_file: 'data/official/refcoco+/dets.json'
+coco_file: 'data/official/refcoco+/cocos.json'
+
+image_root: '/export/share/datasets/coco'
+
+epsilon: 2
+num_iters: 10
+
+bert_config: 'configs/config_bert.json'
+
+image_res: 384
+batch_size: 5
+
+queue_size: 65536
+momentum: 0.995
+vision_width: 768
+embed_dim: 256
+temp: 0.07
+
+alpha: 0.4
+distill: False
+warm_up: True
+
+optimizer: {opt: adamW, lr: 1e-5, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 1e-5, epochs: 5, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-5, warmup_epochs: 1, cooldown_epochs: 0}
+
+
+
+
+
+
+
