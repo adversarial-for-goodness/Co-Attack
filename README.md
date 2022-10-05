@@ -3,7 +3,7 @@
 =======
 # [Towards Adversarial Attack on Vision-Language Pre-training Models](https://arxiv.org/abs/2206.09391)
 
-This is the official PyTorch implement of the paper Towards Adversarial Attack on Vision-Language Pre-training Models. 
+This is the official PyTorch implement of the paper Towards Adversarial Attack on Vision-Language Pre-training Models at *ACM Multimedia 2022*. 
 
 <img src="img.png" width=500>
 
@@ -63,4 +63,13 @@ python GroundingFusionEval.py ...
 ## Visualization
 ```
 python visualization.py --adv 4 --gpu 0
+```
+## Citation
+```
+@inproceedings{zhang2022towards,
+  title={Towards Adversarial Attack on Vision-Language Pre-training Models},
+  author={Zhang, Jiaming and Yi, Qi and Sang, Jitao},
+  booktitle="Proceedings of the 30th ACM International Conference on Multimedia",
+  year={2022}
+}
 ```
