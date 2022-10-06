@@ -3,7 +3,7 @@
 
 This is the official PyTorch implement of the paper Towards Adversarial Attack on Vision-Language Pre-training Models at *ACM Multimedia 2022*. 
 
-<img src="img.png" width=500>
+<!-- <img src="img.png" width=500> -->
 
 ## Requirements
 - pytorch 1.10.2
