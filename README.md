@@ -19,6 +19,14 @@ This is the official PyTorch implement of the paper "[Towards Adversarial Attack
 
 
 ## Evaluation
+|Adv|Instruction|
+|---|---|
+|0|No Attack|
+|1|Attack Text|
+|2|Attack Image|
+|3|Attack Both|
+|4|Co Attack|
+
 When attack unimodal embedding, using "--adv 4" and not using "--cls" will raise an expected error due to the different sequence length of image embedding and text embedding. 
 ### Image-Text Retrieval
 Download MSCOCO or Flickr30k datasets from origin website.
