@@ -19,6 +19,7 @@ This is the official PyTorch implement of the paper "[Towards Adversarial Attack
 
 
 ## Evaluation
+When attack unimodal embedding, using "--adv 4" and not using "--cls" will raise an expected error due to the different sequence length of image embedding and text embedding. 
 ### Image-Text Retrieval
 Download MSCOCO or Flickr30k datasets from origin website.
 ```
@@ -30,6 +31,9 @@ python RetrievalEval.py --adv 4 --gpu 0 --cls \
 
 # Attack Multimodal Embedding
 python RetrievalFusionEval.py ...
+
+# Attack Clip Model
+python RetrievalCLIPEval.py --adv 4 --gpu 0 --image_encoder ViT-B/16  ...
 ```
 
 ### Visual Entailment
