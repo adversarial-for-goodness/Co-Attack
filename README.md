@@ -75,6 +75,7 @@ python GroundingFusionEval.py ...
 python visualization.py --adv 4 --gpu 0
 ```
 ## Citation
+If you find this code to be useful for your research, please consider citing.
 ```
 @inproceedings{zhang2022towards,
   title={Towards Adversarial Attack on Vision-Language Pre-training Models},
