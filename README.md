@@ -85,4 +85,4 @@ python visualization.py --adv 4 --gpu 0
 ```
 
 ## Reference
-- [[ALBEF]](https://github.com/salesforce/ALBEF)
+- [ALBEF](https://github.com/salesforce/ALBEF)
