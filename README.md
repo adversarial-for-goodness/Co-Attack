@@ -5,6 +5,11 @@ This is the official PyTorch implement of the paper "[Towards Adversarial Attack
 
 <!-- <img src="img.png" width=500> -->
 
+## Update 29/11/2022
+We released the fine-tuned checkpoints ([[Baidu]](https://pan.baidu.com/s/1hHkSBgv23rx0zSywBXwwWA?pwd=iqvp), password: iqvp) for VE task on ALBEF and TCL, which not only can be regarded as the attacked model in this paper, but also are useful for other ways.
+
+
+
 ## Requirements
 - pytorch 1.10.2
 - transformers 4.8.1
