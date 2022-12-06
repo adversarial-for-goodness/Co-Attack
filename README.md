@@ -6,7 +6,7 @@ This is the official PyTorch implement of the paper "[Towards Adversarial Attack
 <!-- <img src="img.png" width=500> -->
 
 ## Update 29/11/2022
-We released the fine-tuned checkpoints ([Baidu](https://pan.baidu.com/s/1hHkSBgv23rx0zSywBXwwWA?pwd=iqvp), password: iqvp) for VE task on ALBEF and TCL, which can be considered not only as an attacked model in this paper, but also useful for other ways.
+We released the fine-tuned checkpoints ([Baidu](https://pan.baidu.com/s/1hHkSBgv23rx0zSywBXwwWA?pwd=iqvp), password: iqvp) for VE task on ALBEF and TCL, which can be considered not only as an attacked model in this paper, but also useful for other studies.
 
 
 
