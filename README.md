@@ -6,7 +6,7 @@ This is the official PyTorch implement of the paper "[Towards Adversarial Attack
 <!-- <img src="img.png" width=500> -->
 
 ## Update 20/03/2023
-To get the ASR, you should run "--adv 0" to get the clean accuracy, then run "--adv 4" to get the `adversarial accuracy`, and the `ASR` = `clean accuracy`-`adversarial accuracy`.
+To get the ASR, you should run "--adv 0" to get the `clean accuracy`, then run "--adv 4" to get the `adversarial accuracy`, and the `ASR` = `clean accuracy`-`adversarial accuracy`.
 
 ## Update 29/11/2022
 We released the fine-tuned checkpoints ([Baidu](https://pan.baidu.com/s/1hHkSBgv23rx0zSywBXwwWA?pwd=iqvp), password: iqvp) for VE task on ALBEF and TCL, which can be considered not only as an attacked model in this paper, but also useful for other studies.
